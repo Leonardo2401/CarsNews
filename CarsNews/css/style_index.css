@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root{
+    --cor-botao: #000;
+    --cor-bg: #f00;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Header*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(121, 8, 8);
+    padding: 10px 0px;
+}
+.logo{
+    width: 150px;
+}
+.links{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+}
+.links a{
+    text-decoration: solid;
+    color: #fff;
+    margin-left: 15px;
+}
+.links .botao{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    padding: 20px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 1s;
+}
+
+/*Body*/
+.corpo {
+    background:url('../img/finish-flag.png') no-repeat center center/cover;
+    height: 100%;
+    position: relative;
+    margin-top: 0px;
+}
+
+/*_________Página Inicio_________*/
+.texto-novidades h2{
+    color: #fff;
+    background-color: #000;
+    border: rgb(121, 8, 8) solid 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    text-align: center;
+}
+.titulo1{
+    color: #fff;
+    background-color: #000;
+    border: rgb(121, 8, 8) solid 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.titulo1 strong{
+    font-size: x-large;
+    text-align: center;
+    text-decoration: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titulo1 p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.titulo1 .lewis{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: rgb(121, 8, 8) solid 10px;
+}
+.titulo2{
+    color: #fff;
+    background-color: #000;
+    border: rgb(121, 8, 8) solid 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.titulo2 strong{
+    font-size: x-large;
+    text-align: center;
+    text-decoration: solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.titulo2 p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.titulo2 .los-carreras{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: rgb(121, 8, 8) solid 10px;
+}
+
+/*Footer*/
+.rodape {
+    background-color: rgb(121, 8, 8);
+    color: rgb(0, 0, 0);
+    padding: 30px 0;
+}
+.conteudo-rodape {
+    width: 80%;
+    margin: auto;
+}
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.informacoes a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.redes_sociais img {
+    width: 50px;
+    margin: 30px 10px;
+}
+.redes_sociais a {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.copyright {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+/*Animações*/
+.botao:hover, .botao:focus{
+    color: #000;
+    background-color: #fff;
+}
