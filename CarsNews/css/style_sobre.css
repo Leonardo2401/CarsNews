@@ -33,16 +33,14 @@
     color: #fff;
     margin-left: 15px;
 }
-.links .botao{
+.links {
     color: rgb(255, 255, 255);
-    background-color: rgb(0, 0, 0);
     padding: 20px 25px;
     text-align: center;
     text-transform: uppercase;
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    transition: background 1s;
 }
 
 /*Body*/
@@ -124,8 +122,3 @@
     text-transform: uppercase;
 }
 
-/*Animações*/
-.botao:hover, .botao:focus{
-    color: #000;
-    background-color: #fff;
-}
