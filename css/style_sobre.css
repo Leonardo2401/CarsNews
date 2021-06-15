@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+:root{
+    --cor-botao: #000;
+    --cor-bg: #f00;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Header*/
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(121, 8, 8);
+    padding: 10px 0px;
+}
+.logo{
+    width: 150px;
+}
+.links{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+}
+.links a{
+    text-decoration: solid;
+    color: #fff;
+    margin-left: 15px;
+}
+.links {
+    color: rgb(255, 255, 255);
+    padding: 20px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*Body*/
+.corpo {
+    background:url('../img/finish-flag.png') no-repeat center center/cover;
+    height: 100%;
+    position: relative;
+    margin-top: 0px;
+
+}
+
+.sobre {
+    color: #fff;
+    background-color: #000;
+    border: 10px solid rgb(121, 8, 8);
+    border-radius: 10px;
+    font-size: large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.sobre p {
+    line-height: 1.7;
+    margin-left: 10px;
+}
+.sobre strong{
+    font-size: x-large;
+    line-height: 2.0;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+.parcerias strong {
+    margin-top: 20px;
+}
+.imagens {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+.imagens .f1_tv, .eurosport, .sporttv {
+    margin-right: 20px;
+    border: rgb(121, 8, 8) solid 5px;
+}
+
+.rodape {
+    background-color: rgb(121, 8, 8);
+    color: rgb(0, 0, 0);
+    padding: 30px 0;
+}
+.conteudo-rodape {
+    width: 80%;
+    margin: auto;
+}
+.informacoes {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+.informacoes a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+}
+.redes_sociais img {
+    width: 50px;
+    margin: 30px 10px;
+}
+.redes_sociais a {
+    display: inline;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 5px;
+}
+.copyright {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
